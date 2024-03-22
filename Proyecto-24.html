@@ -1,0 +1,82 @@
+<!--
+    Enunciado: 
+
+
+    Crea un fomuralio con un campo de tipo busqueda, telefono, hora , url , barra de procesos, lista de datos, submit y reset
+    todos los cambios deberan tener un label
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 24</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Este es el Proyecto 24</h1>
+    </main>
+
+    <form action="">
+        <fieldset>
+            <legend>Formulario de contacto</legend>
+            <label for="search">Search:</label>
+            <input type="search" name="search" id="search" placeholder="Buscar...">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Numero Telefonico</legend>
+            <label for="number">Telefono:</label>
+            <input type="numer" name="number" id="number" placeholder="Telefono...">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Hora</legend>
+            <label for="time">Hora del País:</label>
+            <input type="time" name="time" id="time" value="00:00">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Pagina Web</legend>
+            <label for="url">Url</label>
+            <input type="url" name="url" id="url" placeholder="URL...">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="datalist">Navegadores</label>
+            <input list="browsers" name="browser" id="datalist">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Barra de Procesos</legend>
+            <label for="progress">Proceso</label>
+            <input type="range" id="progress" value="50" max="100">100%</>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Enviar Datos</legend>
+            <label for="submit"></label>
+            <button name="submit" id="submit">Enviar</button>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Limpiar Datos</legend>
+            <label for="reset"></label>
+            <button name="reset" id="reset">Limpiar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
